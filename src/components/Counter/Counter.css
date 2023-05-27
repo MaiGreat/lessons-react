@@ -11,6 +11,13 @@
     margin-bottom: 10px;
 }
 
+.Counter_controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
 .Counter_controls button {
     padding: 10px 20px;
     font-size: 16px;
@@ -24,4 +31,10 @@
 
 .Counter_controls button:last-child {
     margin-right: 0;
+}
+
+.Counter_value {
+    font-size: 28px;
+    margin-left: auto;
+    margin-left: auto;
 }
